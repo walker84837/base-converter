@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Base Converter</title>
+  </head>
+  <body>
+    <main>
+      <h1>Base Converter</h1>
+      <label for="number">Enter a number:</label>
+      <input type="text" id="number" />
+      <label for="from">From base:</label>
+      <input type="text" id="from" />
+      <label for="to">To base:</label>
+      <input type="text" id="to" />
+      <button onclick="convert()">Convert</button>
+      <h2>Result:</h2>
+      <textarea id="result" rows="2" readonly></textarea>
+      <p>
+        Welcome to this base converter! This website provides a convenient tool
+        for converting numbers between different bases. Whether you need to
+        convert a decimal number to binary or a hexadecimal value to octal, this
+        converter has you covered. Simply enter the number you want to convert
+        in the 'Enter a number' box to use the Base Converter. Then enter the
+        base of the number entered in the 'From base' field and the base
+        required to convert in the 'To base' field. When you've entered the
+        required details, click 'Convert' and the converter will calculate the
+        value and display it in the 'Result' area. You can copy the converted
+        value from the text area for further use. The Base Converter supports a
+        wide range of bases, from binary (base 2) to hexadecimal (base 16). This
+        allows you to perform conversions across different number systems. The
+        converter also performs validation to ensure the input number and bases
+        are valid. Helpful error messages are provided if necessary.
+      </p>
+    </main>
+    <footer><a href="https://walker84837.github.io/">Main page</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
