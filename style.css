@@ -2,122 +2,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --text-color: #d5cfc3;
-  --background-color: #332e24;
-  --fonts: 'Open Sans', Helvetica, Arial, sans-serif;
-  --border-color: #3f392d;
-  --text-bg-color: #4e4738;
+	--text-color: #d5cfc3;
+	--background-color: #332e24;
+	--fonts: 'Open Sans', Helvetica, Arial, sans-serif;
+	--border-color: #3f392d;
+	--text-bg-color: #4e4738;
 }
 
 * {
-  font-family: var(--fonts);
-  text-align: center;
-  color: var(--text-color);
+	font-family: var(--fonts);
+	text-align: center;
+	color: var(--text-color);
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
 html {
-  color-scheme: dark;
+	color-scheme: dark;
 }
 
 body {
-  background-color: var(--background-color);
+	background-color: var(--background-color);
+	display: flex;
+	flex-direction: column;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: min(128ch, calc(100% - 4rem));
-  margin-inline: auto;
-  padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: min(80ch, calc(100% - 4rem));
+	margin-inline: auto;
+	padding: 1.5rem;
+	flex: 1;
 }
 
 footer {
-  background-color: #81765f7f;
-  padding: 1.5rem;
-  font-size: 0.875em;
+	background-color: #81765f7f;
+	padding: 1.5rem;
+	font-size: 0.875em;
 }
 
 button {
-  background-color: hsl(41, 15%, 40%);
-  border: none;
-  padding: 0.625em 1.25em;
-  cursor: pointer;
-  border-radius: 1em 1em;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+	background-color: hsl(41, 15%, 40%);
+	border: none;
+	padding: 0.625em 1.25em;
+	cursor: pointer;
+	border-radius: 1em 1em;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 strong {
-  font-weight: 500;
+	font-weight: 500;
 }
 
 label {
-  font-size: 1em;
-  display: block;
-  margin-bottom: 0.5rem;
+	font-size: 1em;
+	display: block;
+	margin-bottom: 0.5rem;
 }
 
 input {
-  background-color: var(--text-bg-color);
-  border-color: var(--border-color);
-  width: 15em;
-  margin-bottom: 1rem;
-  border-radius: .5em .5em;
+	background-color: var(--text-bg-color);
+	border-color: var(--border-color);
+	width: 15em;
+	margin-bottom: 1rem;
+	border-radius: .5em .5em;
 }
 
 a {
-  color: var(--text-color);
-  text-align: center;
-  text-decoration: underline;
-  transition: all 0.25s ease-in-out;
+	color: var(--text-color);
+	text-align: center;
+	text-decoration: underline;
+	transition: all 150ms ease-in-out;
 }
 
 a:hover {
-  color: #83775d;
-  text-decoration: underline;
+	color: #83775d;
 }
 
 mark {
-  background-color: #45453ddc;
+	background-color: #45453ddc;
 }
 
 h1 {
-  font-weight: 800;
-  font-size: 2em;
+	font-weight: 800;
+	font-size: 2em;
 }
 
 h2 {
-  font-weight: 700;
-  font-size: 1.5625em;
+	font-weight: 700;
+	font-size: 1.5625em;
 }
 
 h3 {
-  font-weight: 600;
-  font-size: 1.325em;
+	font-weight: 600;
+	font-size: 1.325em;
 }
 
 textarea {
-  background-color: var(--text-bg-color);
-  border-color: var(--border-color);
-  border-radius: 1em 1em;
-  margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
-  font-weight: 400;
-  font-size: 0.85em;
+	background-color: var(--text-bg-color);
+	border-color: var(--border-color);
+	border-radius: 1em 1em;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	font-weight: 400;
+	font-size: 0.85em;
 }
 
 p {
-  font-weight: 300;
-  text-align: justify;
+	font-weight: 300;
+	line-height: 1.7;
+	text-align: justify;
 }
 
 code {
-  font-size: 0.875em;
-  font-weight: 400;
-  font-family: 'Inconsolata', 'Menlo', 'Courier New', Courier, monospace;
+	font-size: 0.875em;
+	font-weight: 400;
+	font-family: 'Inconsolata', 'Courier New', system-ui, monospace, sans-serif;
 }
 
 ::selection {
-  background-color: hsla(40, 17%, 44%, 0.5);
+	background-color: hsla(40, 17%, 44%, 0.5);
 }
