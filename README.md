@@ -1,32 +1,56 @@
 # base-converter
 
-Welcome to this base converter! This website provides a convenient tool for converting numbers between different bases. Whether you need to convert a decimal number to binary or a hexadecimal value to octal, this converter has you covered.
+[![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](LICENSE.md)
 
-## Usage
+A simple web-based number base converter.
 
-Follow these steps to use the Base Converter:
+## Description
 
-1. Enter the number you want to convert in the 'Enter a number' box.
-2. In the 'From base' field, type the base of the number you entered.
-3. In the 'To base' field, enter the base you want to convert to.
-4. Click the 'Convert' button.
+`base-converter` is a lightweight web application designed to convert numbers
+between different bases. Whether you need to convert a decimal number to
+binary, an octal number to hexadecimal, or any other combination, this tool has
+you covered. The user-friendly interface allows for quick and hassle-free
+conversions.
 
-The converter calculates the value and displays it in the 'Result' area. You can copy the converted value from the text area for further use. From binary (base 2) to hexadecimal (base 16), the Base Converter supports a wide range of bases. This allows you to convert between different numeral systems.
+## Features
 
-Please note that in order to ensure that the input number and bases are valid, the converter will perform a validation. Helpful error messages are provided if there are any problems with the input.
+  - Convert numbers between various bases, including binary, octal, decimal, and hexadecimal.
+  - Clean and intuitive user interface for easy navigation.
+
+## Installation
+
+To use the website offline, follow these steps:
+
+1.  Clone the repository to your local machine:
+    ``` console
+    git clone https://github.com/walker84837/base-converter.git
+    ```
+2.  Open the project in your preferred browser.
+
+## Roadmap
+
+- Explore the possibility of using alternative backends like [Rocket](https://rocket.rs/)
+  or [Actix](https://actix.rs/).
+- Enhance user experience with additional features, such as history tracking
+  for previous conversions.
 
 ## Contributing
 
-You can freely contribute to the development of this base converter. Please follow these steps if you would like to contribute:
+Contributions are welcome! If you have suggestions, improvements, or bug fixes:
 
-1. Fork the repository and clone it to your local machine.
-2. Make your desired changes or additions.
-3. Test your changes thoroughly.
-4. Commit and push your changes to your forked repository.
-5. Submit a pull request with a clear description of your changes and the problem they solve.
+1. Follow the [Linux kernel coding style](https://docs.kernel.org/process/coding-style.html).
+2. Follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+3. Propose new features by opening an issue.
+4. Write commit messages following [this guide](https://commit.style/).
+5. Use [JSDoc](https://github.com/jsdoc/jsdoc) when contributing and specify types.
 
-Thanks for your interest in being a part of this project! With your help, we can improve this base converter and make it even more powerful.
+If you encounter any issues or have questions, feel free to open an issue.
 
 ## License
 
-This base converter is licensed under the [Unlicense](https://unlicense.org/). For more information, please refer to the [LICENSE](LICENSE) file in the repository.
+This project is licensed under the [BSD-3-Clause](LICENSE.md) license.
+
+## Project Status
+
+Development has slowed down, as no features need to be added for now: contributions
+are welcome to make the tool even more versatile.
